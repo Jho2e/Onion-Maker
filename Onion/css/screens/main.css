@@ -1,0 +1,22 @@
+.main-home {
+  background-image: url("https://data.ac-illust.com/data/thumbnails/2d/2db9d75960ecad136b8d5dc31344a584_t.jpeg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-home__onions {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+
+/* 양파맨에 마우스 올리면 회전하는 것  추가하기*/
+.main-home__onionman {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
