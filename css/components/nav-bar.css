@@ -26,6 +26,23 @@
   margin: 10px;
 }
 
+@keyframes navmove {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__link:hover i {
+  will-change: transform;
+  animation: navmove 0.5s ease-in-out infinite;
+}
+
 .nav__shop-notification {
   font-size: 15px;
   background-color: tomato;
