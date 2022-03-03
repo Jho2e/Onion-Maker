@@ -26,3 +26,8 @@
   border-radius: 25px;
   margin-bottom: 50px;
 }
+
+.upgrade__onionman:hover {
+  will-change: transform;
+  animation: sunrotate 1s ease-in-out infinite;
+}
