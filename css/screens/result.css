@@ -6,6 +6,15 @@
   display: flex;
 }
 
+.result__text-column {
+  display: flex;
+  background-color: red;
+  border-radius: 30px;
+  font-size: 40px;
+  margin-top: 160px;
+  margin-left: 30px;
+}
+
 .result__broken-onion {
   position: fixed;
   left: 0;
