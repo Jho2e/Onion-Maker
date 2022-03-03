@@ -15,7 +15,7 @@
 
 /* 회전  추가하기*/
 
-@keyframes sunrotatae {
+@keyframes sunrotate {
   0% {
     transform: none;
   }
@@ -35,7 +35,7 @@
 
 .main-home__morning-sun-img:hover {
   will-change: transform;
-  animation: sunrotatae 2s ease-in-out infinite;
+  animation: sunrotate 2s ease-in-out infinite;
 }
 
 /* 
@@ -103,5 +103,5 @@
 
 .main-home__night-moon-img:hover {
   will-change: transform;
-  animation: sunrotatae 2s ease-in-out infinite;
+  animation: sunrotate 2s ease-in-out infinite;
 }

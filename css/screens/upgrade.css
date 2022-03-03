@@ -1,0 +1,28 @@
+.upgrade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upgrade-image {
+  position: relative;
+}
+
+.upgrade__onion {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.upgrade__onionman {
+  width: 300px;
+  height: 300px;
+}
+
+.upgrade__text {
+  color: white;
+  background-color: #92a4b2;
+  padding: 15px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}

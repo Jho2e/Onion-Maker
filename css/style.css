@@ -8,7 +8,9 @@
 /*Screens*/
 @import "screens/login.css";
 @import "screens/main.css";
-@import "screens/status.css";
+@import "screens/stat.css";
+@import "screens/upgrade.css";
+@import "screens/result.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
